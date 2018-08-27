@@ -1,0 +1,1 @@
+let jiraDescription = "Elasticsearch key word search research"
