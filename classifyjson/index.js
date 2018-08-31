@@ -20,7 +20,9 @@ function train(trainingData){
         classifier.addDocument(item.text, item.label);
     });
     var startTime = new Date();
+    console.log('start')
     classifier.train();
+    console.log('end')
     var endTime = new Date();
     var trainingTime = (endTime-startTime)/1000.0;
     console.log("Training time:", trainingTime, "seconds");
