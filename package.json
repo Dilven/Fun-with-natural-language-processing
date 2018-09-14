@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "natural": "^0.6.1"
+    "bluebird": "^3.5.1",
+    "express": "^4.16.3",
+    "natural": "^0.6.1",
+    "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "pretty": "^2.0.0"
   }
 }
